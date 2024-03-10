@@ -1,0 +1,59 @@
+header {
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    overflow: hidden;
+    top: 0;
+  }
+  
+  nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  nav img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -27px;
+  }
+  
+  nav p:hover {
+    cursor: pointer;
+  }
+  
+  .logo-container {
+    width: auto;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20px;
+  }
+  
+  nav p {
+    position: relative;
+  }
+  
+  nav p::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #4B1382;
+    transition: width 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  nav p:hover::before {
+    width: 100%;
+  }
+  
