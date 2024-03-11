@@ -1,13 +1,15 @@
 import "./CSS/WhyChooseUs.css";
 
+
 const WhyChooseUs = () => {
+
   return (
     <>
-      <h1 style={{ color: "#5062EB", textAlign: "center" }}>
+      <h1 data-aos='fade-up' style={{ color: "#5062EB", textAlign: "center" }}>
         Why Choose Web Canvas?
       </h1>
       <div className="chooseus-container">
-        <div className="description-elements">
+        <div data-aos='fade-right' data-aos-delay='200' className="description-elements">
           <h3 style={{ marginBottom: "20px", marginTop: "7px" }}>
             Time Saving Templates
           </h3>
@@ -23,7 +25,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        <div className="description-elements">
+        <div data-aos='fade-left' data-aos-delay='200' className="description-elements">
           <h3 style={{ marginBottom: "20px", marginTop: "7px" }}>
             Professional Design:
           </h3>
@@ -40,7 +42,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        <div className="description-elements">
+        <div data-aos='fade-right' data-aos-delay='200' className="description-elements">
           <h3 style={{ marginBottom: "20px", marginTop: "7px" }}>
             Easy Customization:
           </h3>
@@ -55,7 +57,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        <div className="description-elements">
+        <div data-aos='fade-left' data-aos-delay='200' className="description-elements">
           <h3 style={{ marginBottom: "20px", marginTop: "7px" }}>
             Responsive Layouts:
           </h3>
@@ -70,7 +72,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        <div className="description-elements">
+        <div data-aos='fade-right' data-aos-delay='200' className="description-elements">
           <h3 style={{ marginBottom: "20px", marginTop: "7px" }}>
             Responsive Layouts:
           </h3>
@@ -88,7 +90,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
       </div>
-      <h2 style={{ textAlign: "center", color: "#5062EB" }}>
+      <h2 data-aos='fade-up' data-aos-delay='200' style={{marginBottom: '30px', textAlign: "center", color: "#5062EB" }}>
         Choose WebCanvas for hassle-free website creation, stunning design, and
         a head start on your online presence! 🚀🎨💡
       </h2>

@@ -3,6 +3,7 @@ import StartingInfo from "./StartingInfo";
 import TemplateContainer from "./TemplateContainer";
 import WhyChooseUs from "./WhyChooseUs";
 
+
 const Home = () => {
 
   return (

@@ -2,17 +2,10 @@ import sitetemplate from "../assets/sitetemplate.webp";
 import designphoto from "../assets/designphoto.webp";
 import responsiveimage from "../assets/responsiveimage.webp";
 import "./CSS/Home.css";
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 
 const TemplateContainer = () => {
-
-    useEffect(() => {
-        AOS.init({ duration: 1500, once: false });
-      });
-    
+  
     
   return (
     <>

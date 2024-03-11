@@ -1,0 +1,30 @@
+.startinfo-container {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-image: url('../../assets/parallax.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Ensure the overflow is hidden to prevent unwanted scrolling */
+}
+
+/* Overlay with semi-transparent dark color */
+.startinfo-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+
+.startinfo-container h1,
+.startinfo-container p {
+    text-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px; /* White text shadow */
+    color: white; /* Text color */
+}

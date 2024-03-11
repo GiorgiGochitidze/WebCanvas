@@ -1,16 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'georgian-font', sans-serif
+  font-family: 'georgian-font', sans-serif;
 }
 
-body{
+body {
   height: 100vh;
 }
 
 @font-face {
-  font-family: 'georgian-font'; /* The name you want to use for your custom font */
+  font-family: 'georgian-font';
   src: url('./Fonts/bpg_extrasquare_mtavruli_2009.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -18,6 +18,6 @@ body{
   font-display: fallback;
 }
 
-html{
+html {
   overflow-x: hidden;
 }
