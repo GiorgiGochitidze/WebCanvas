@@ -13,7 +13,6 @@ function App() {
     window.scrollTo(0, 0)
     AOS.init({  once: false});
     AOS.refresh(); // Refresh AOS after initialization
-    window.scrollTo(0, 0);
     console.log(AOS)
   }, []);
 
