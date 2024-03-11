@@ -10,7 +10,8 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden; /* Ensure the overflow is hidden to prevent unwanted scrolling */
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 /* Overlay with semi-transparent dark color */

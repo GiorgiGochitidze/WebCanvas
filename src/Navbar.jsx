@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -8,8 +9,8 @@ const Navbar = () => {
           <img src="/logo.png" alt="our site logo image" />
           <p style={{fontSize: '12px', color: '#4B1382'}}>WebCanvas</p>
         </div>
-        <p>Home</p>
-        <p>Templates</p>
+        <Link style={{textDecoration: 'none', color: 'black'}} to='/'><p>Home</p></Link>
+        <Link style={{textDecoration: 'none', color: 'black'}} to='/TechWorks'><p>Templates</p></Link>
         <p>Contact Us</p>
       </nav>
     </header>
